@@ -88,35 +88,6 @@ function Contact() {
             </p>
           </a>
 
-          {/* GitHub Card */}
-          <a
-            href="https://github.com/moniquevith"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`
-              p-5
-              rounded-xl
-              border
-              transition-all
-              duration-300
-              hover:scale-105
-              hover:border-violet-500
-              ${
-                theme === "light"
-                  ? "bg-white border-gray-200"
-                  : "bg-zinc-800 border-zinc-700"
-              }
-            `}
-          >
-            <p className="text-violet-600 font-semibold">
-              GitHub
-            </p>
-
-            <p className="mt-1">
-              View my projects
-            </p>
-          </a>
-
         </div>
 
       </div>
